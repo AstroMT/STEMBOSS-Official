@@ -1,0 +1,168 @@
+<html>
+
+<head>
+    <title>STEMBOSS - Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/79d0868708.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Stint+Ultra+Condensed&family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+</head>
+
+<body>
+    <center>
+        <div class="container">
+            <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        STEMBOSS
+                    </a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#About">About Us</a></li>
+                        <li><a href="#What_we_Do">What we Do</a></li>
+                        <li><a href="#Mission">Our Mission</a></li>
+                        <li><a href="#Our_Team">Our Team</a></li>
+                        <li><a href="#Contact">Contact Us</a></li>
+                    </ul>
+                    <img src="STEMBOSS_logo.png" style="margin-top: 0px;" alt="logo" width="50">
+                </div>
+            </nav>
+
+            <section id="About">
+                <marquee width="90%" direction="right" onmouseover="stop()" onmouseout="start()" scrollamount="14">
+                    Contact us at STEMBOSS for more information</marquee>
+                <iframe width="100%" height="506" src="" alt="youtube video link" title="YouTube video player"
+                    frameborder="0" width="100%"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </section>
+
+
+            <section class="page-header" id="What_we_Do">
+                <h2 class="header">What we do</h2>
+                <div class="line"></div>
+                <div class="row">
+                    <div class="travel_mainDiv">
+                        <img class="img-responsive" src="" alt="image1">
+                        <h4><kbd>Title</kbd></h4>
+                        <hr>
+                        <p class="text-success text-left">HTML, CSS, JS</p>
+                        <p>Description<br><br></p>
+                    </div>
+
+                    <div class="travel_mainDiv">
+                        <img class="img-responsive" src="" alt="image2">
+                        <h4><kbd>Title</kbd></h4>
+                        <hr>
+                        <p class="text-success text-left">Python</p>
+                        <p>Description</p>
+                    </div>
+
+                    <div class="travel_mainDiv">
+                        <img class="img-responsive" src="" alt="image3">
+                        <h4><kbd>Title</kbd></h4>
+                        <hr>
+                        <p class="text-success text-left">Java</p>
+                        <p>Description</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <div class="page-header" id="Mission">
+                <h2 class="header">Our Mission</h2>
+                <div class="line"></div>
+
+                <ul class="list-group">
+                    <li
+                        class="environment_li list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h4 class="description text-capitalize">Accomplish</h4>
+                        <img src="" class="img-responsive img-lg-5 img-md-5 img-sm-5 img-xs-5">
+                        <p class="list-group-item-text description" width="100%">
+                            We have accomplished _________________
+                        </p>
+                    </li>
+                    <li
+                        class="environment_li list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h4 class="description">Warnings</h4>
+                        <img src="" class="img-responsive img-lg-5 img-md-5 img-sm-5 img-xs-5">
+                        <p class="list-group-item-text description" width="100%">
+                            However, we might _________________________________
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <section id="Our_Team">
+                <h2 class="header">Our Alumni</h2>
+                <div class="line"></div>
+
+                <div id="myModal" class="modal fade">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">MT</h3>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <div class="modal-body">
+                            <p>DESCRIPTION OF MAHITHA</p>
+                        </div>
+                    </div>
+                </div>
+                <button id="button_MT" class="btn btn-primary" data-toggle="modal"
+                    data-target="#myModal">Mahitha</button>
+                <br><br><br><br>
+                <div id="myModal2" class="modal fade">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">NS</h3>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <div class="modal-body">
+                            <p>DESCRIPTION OF NEEHARIKA</p>
+                        </div>
+                    </div>
+                </div>
+                <button id="button_NS" class="btn btn-primary" data-toggle="modal"
+                    data-target="#myModal2">Neeharika</button>
+
+                </modal>
+
+            </section>
+
+            <section id="Contact">
+                <h2 class="header">Contact Us</h2>
+                <div class="line"></div>
+                <p>You can contact us at
+                    <br>
+                    <i class="fa fa-envelope"></i>
+                    <a href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=stemboss.npo@gmail.com&hl=en" target="_blank">stemboss.npo@gmail.com</a>
+                    <br><br>
+                    <i class="fas fa-laptop-code"></i>
+                    You can also contact us through Instagram at <a href="https://www.instagram.com/stembossofficial/">STEMBOSS Official</a>
+                </p>
+            </section>
+        </div>
+    </center>
+
+</body>
+
+</html>
